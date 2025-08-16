@@ -3,14 +3,14 @@
 {
 	"name": "PHP + NodeJS",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/php:1-8.2-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/php:1-8.4-bullseye",
 
 	// Configure tool-specific properties.
 	"customizations": {
 	// Configure properties specific to VS Code.
 		"vscode": {
 			"extensions": [
-				"ikappas.composer",
+				"DEVSENSE.composer-php-vscode",
                 "neilbrayfield.php-docblocker",
                 "mehedidracula.php-namespace-resolver",
                 "github.vscode-github-actions",
